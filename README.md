@@ -19,4 +19,6 @@ instead of using full ip ```10.10.10.221``` they can simply use ```221```
 
 ### Non-HTB users 
 
-You guys need to change the th line of this code
+You guys need to change the 16th line of this code
+ 
+just remove ```10.10.10.``` there and make sure after removing it looks like ```ip = (''+sys.argv[1])```
