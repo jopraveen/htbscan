@@ -2,8 +2,6 @@
 
 ```python3 htbs.py <last digits of IP>```
 
-You can also modify this in the script  ^ (change that if you're not going to use this for HTB)
-
 
 ### Make it simple
 
@@ -22,3 +20,10 @@ instead of using full ip ```10.10.10.221``` they can simply use ```221```
 You guys need to change the 16th line of this code
  
 just remove ```10.10.10.``` there and make sure after removing it looks like ```ip = (''+sys.argv[1])```
+
+
+### Change modes
+
+In 27th line  ```cmd('nmap -sC -sV '+ip+' -p'+ports)```  you can change the modes. If you want an agressive scan then just modify it there.
+Code is fully flexible. You can modify it as you want
+
