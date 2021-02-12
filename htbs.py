@@ -25,7 +25,7 @@ if len(sys.argv)==2:
         print(ports)
         # scanning only the opened ports
         cmd('nmap -sC -sV '+ip+' -p'+ports)
-        # deleting extra files ( I used -oN flag but it took more time than -oA. So, I used like this )
+        # deleting extra files ( I used -oN flag but it took more time than -oA. So, I used -oA and deleting the extra stuffs here )
         cmd('rm opened-ports.txt normalscan.gnmap normalscan.xml normalscan.nmap')
 # printing usage
 else:
