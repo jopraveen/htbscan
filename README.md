@@ -1,3 +1,7 @@
+### How it works?
+
+![preview](https://www.youtube.com/watch?v=1Va6ws_o5w4)
+
 ### How to use ?
 
 ```python3 htbs.py <last digits of IP>```
@@ -26,4 +30,3 @@ just remove ```10.10.10.``` there and make sure after removing it looks like ```
 
 In 27th line  ```cmd('nmap -sC -sV '+ip+' -p'+ports)```  you can change the modes. If you want an agressive scan then just modify it there.
 Code is fully flexible. You can modify it as you want
-
