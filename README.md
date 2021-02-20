@@ -1,6 +1,6 @@
-### How it works?
+### See How it works 👇
 
-![preview](https://www.youtube.com/watch?v=1Va6ws_o5w4)
+### https://www.youtube.com/watch?v=1Va6ws_o5w4
 
 ### How to use ?
 
